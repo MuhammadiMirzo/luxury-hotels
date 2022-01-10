@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+.button-top {
+  color: black;
+  background-color: #e0b973;
+  border-style: none;
+  width: 100px;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+header .right {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+.w-50 {
+  width: 50%;
+}
+
+header {
+  color: white;
+  background-image: url(images/backhotel.png);
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.text {
+  margin-top: 100px;
+}
+.h1 {
+  font-size: 96px;
+  margin: 0%;
+  font-style: normal;
+}
+.h3 {
+  font-size: 25px;
+  margin: 0;
+  position: relative;
+  top: 25px;
+}
+.h4 {
+  margin: 0%;
+  position: relative;
+  bottom: 20px;
+}
+.button-bottom {
+  margin-top: 80px;
+  position: relative;
+  left: 46%;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #e0b973;
+  padding: 12px;
+}
+.button-bottom img {
+  width: 15px;
+  height: 15px;
+  padding: 3px;
+}
+.button-bottom span {
+  position: relative;
+  bottom: 5px;
+}
+.scroll {
+  position: relative;
+  left: 50%;
+  background: transparent;
+  border: none;
+  border-radius: 100px;
+  padding: 20px 0;
+}
+.scroll img {
+  width: 30px;
+  height: 30px;
+}
+
+.allroom {
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 50px;
+}
+.explore {
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 15px;
+  color: white;
+  background-color: #e0b973;
+}
+.marg {
+  margin-top: 0;
+}
+.left {
+  border-left: solid 3px #14274a;
+  padding-left: 20px;
+  color: #14274a;
+}
+.row {
+  margin-bottom: 24px;
+}
+.row .right img {
+  width: 100%;
+}
+.boloifooter {
+  text-align: center;
+  margin: 60px auto;
+  color: #14274a;
+}
+.sledpred img {
+  padding: 5px;
+}
+.sledpred button {
+  padding: 7px 13px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e0b973;
+}
+footer {
+  padding-top: 32px;
+  background-image: url(/images/footer.png);
+  background-size: cover;
+  background-position-x: center;
+  display: flex;
+}
+footer d-flex {
+  display: flex;
+}
+.footer {
+  color: white;
+}
+.w-25 {
+  width: 25%;
+}
+footer li {
+  list-style: none;
+  margin: 20px 0;
+}
+footer span {
+  font-size: 15px;
+  position: relative;
+  left: 20%;
+  bottom: 15px;
+}
+footer button {
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 16px;
+  padding: 13px 10px;
+  background-color: #e0b973;
+}
+footer input {
+  padding: 6px;
+  height: 30px;
+  background-color: transparent;
+  border: solid 1px #e0b973;
+  position: relative;
+  left: 5px;
+  bottom: 1px;
+}
